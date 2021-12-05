@@ -27,5 +27,11 @@ namespace IS_2_19_MogilnikovDA
             Form1 newform = new Form1();
             newform.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 newform = new Form2();
+            newform.ShowDialog();
+        }
     }
 }
